@@ -138,7 +138,7 @@ class ModelExtensionShippingFreteclick extends Model {
 
 		$payload = http_build_query($fields);
 
-		$url = "https://api.freteclick.com.br/sales/shipping-quote.json";
+		$url = "https://api.freteclick.com.br/quotes";
 
 		// Prepare new cURL resource
 		$ch = curl_init($url);
